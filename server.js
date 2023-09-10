@@ -4,7 +4,7 @@ const cors = require("cors");
 require('dotenv').config()
 
 const app = express();
-const path = `${__dirname}\\.\\client-app\\build`;
+const path = `${__dirname}/client-app/build/`;
 app.use(express.static(path));
 console.log("path=====", path)
 
