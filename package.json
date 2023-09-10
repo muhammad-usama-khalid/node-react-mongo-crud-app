@@ -9,7 +9,7 @@
   },
   "scripts": {
     "build:client": "npm run build --prefix client-app",
-    "start:app": "npm run build:client && nodemon server.js",
+    "start:app": "npm run build:client && node server.js",
     "install:deps": "npm install && npm install --prefix client-app --force",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm run install:deps && npm run start:app",
     "local:build:wm": "npm run install:deps && npm run start:app",
