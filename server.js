@@ -6,6 +6,7 @@ require('dotenv').config()
 const app = express();
 const path = `${__dirname}\\.\\client-app\\build`;
 app.use(express.static(path));
+console.log("path=====", path)
 
 var corsOptions = {
   origin: "http://localhost:8081"
@@ -34,6 +35,7 @@ db.mongoose
   });
 
 app.get('/', function (req, res) {
+  console.log("index=====", path + "index.html")
   res.sendFile(path + "index.html");
 });
 
