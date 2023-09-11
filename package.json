@@ -13,7 +13,8 @@
     "start:app": "npm run build:client && node server.js",
     "install:deps": "npm install && npm install --prefix client-app --force",
     "local:build:wm": "npm run install:deps && npm run start:app",
-    "local:build:wom": "npm run start:app"
+    "local:build:wom": "npm run start:app",
+    "start-custom": "npm run install:deps && npm run build:client && node server.js"
   },
   "keywords": [
     "nodejs",
