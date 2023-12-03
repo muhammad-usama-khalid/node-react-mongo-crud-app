@@ -14,7 +14,7 @@ jobs:
         with: 
           node-version: "14.x"
       - name: Install dependencies and run app
-        run: npm start-custom
+        run: npm run start-custom
 
   deploy:
     runs-on: ubuntu-latest
