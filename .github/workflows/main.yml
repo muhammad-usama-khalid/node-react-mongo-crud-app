@@ -26,4 +26,3 @@ jobs:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: "node-react-crud-app"
           heroku_email: "muhammadusama128@gmail.com"
-          procfile: 'web: npm run start-custom'
