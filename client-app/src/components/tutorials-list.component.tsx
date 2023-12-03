@@ -197,7 +197,7 @@ export default class TutorialsList extends Component<Props, State>{
           </div>
         </div>
         <div className="col-md-6">
-          <h4>Tutorials List</h4>
+          <h4>Tutorials List changes</h4>
 
           <div className="mt-3">
             {"Items per Page: "}
